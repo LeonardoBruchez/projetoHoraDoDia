@@ -3,7 +3,7 @@ function Load(){
   var img = document.querySelector('img#imagem')
   var copyLink = document.querySelector('a#copyLink')
   var now = new Date()
-  var hora = 1
+  var hora = now.getHours()
   var minuto = now.getMinutes()
   msg.textContent = `Agora são ${hora} horas e ${minuto} minutos`
   if(hora >= 0 && hora < 12){
