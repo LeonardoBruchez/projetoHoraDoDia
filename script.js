@@ -12,7 +12,7 @@ function Load(){
     document.body.style.background = '#E3CFA5'
   }else if(hora >=12 && hora <=18){
     img.src='assets/tarde.jpg'
-    document.body.style.background = '#E39074'
+    document.body.style.background = '#db7452ff'
   }else{
     img.src='assets/noite.jpg'
     document.body.style.background = '#44324C'
